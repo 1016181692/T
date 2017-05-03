@@ -83,7 +83,7 @@
  				+"</div>");
  					
  					$(".c-con").scrollTop(10000000);
- 					var url = "http://fanyi.baidu.com/gettts?lan=jp&text="+json.text+"&spd=5&source=web";
+ 					var url = "http://fanyi.baidu.com/gettts?lan=zh&text="+json.text+"&spd=5&source=web";
  					var obj = "<audio src="+url+" autoplay ></audio>";
  					$("body").append(obj);
  					
